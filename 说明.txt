@@ -1,0 +1,13 @@
+jeesite开发平台精简版
+
+简介：
+基于gem的jeesite mybatis版本，只保留sys、gen、test模块，移除cms、act、oa模块。
+
+使用说明：
+1、在mysql下采用“source xxx.sql”的方式导入“jeesite_lite.sql”初始化数据库。
+	注意，本脚本会先干掉jeesite数据库，然后新建，请注意备份重要数据！！！！
+
+2、将项目导入myeclipse即可。
+
+3、如欲使用代码生成功能，请在“jeesite.properties”中修改“srcPath”为正确的路径！
+
